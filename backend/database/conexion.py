@@ -12,9 +12,9 @@ def get_connection():
         )
         if con.is_connected():
             print('✅ Conexión exitosa a la base de datos')
-            return con
+        return con
     except Error as e:
-        print(f"❌ Error al conectar a la base de datos: {e}")
+        print(f"❌ Error al conectar a la base de datos, bd posiblemente apagada.")
         return None
     
 # Prueba De Conexión exitosa
