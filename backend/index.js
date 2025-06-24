@@ -1,4 +1,5 @@
 const contactosRoutes = require('./routes/contactosRoutes');
+const rolesRoutes = require('./routes/rolesRoutes')
 const express = require('express');
 const cors = require('cors');
 
@@ -14,6 +15,7 @@ app.get('/', (req, res) => {
 
 // Rutas de contactos
 app.use('/api/contactos', contactosRoutes);
+app.use('/api/roles', rolesRoutes)
 
 // Puerto
 const PORT = process.env.PORT || 3000;
