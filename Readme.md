@@ -26,7 +26,7 @@
 - **SweetAlert2** (alertas amigables)
 - **Axios** (llamadas HTTP)
 
-### Base de Datos
+### 📃 Base de Datos
 - **MySQL** corriendo localmente con **XAMPP**
 
 ---
